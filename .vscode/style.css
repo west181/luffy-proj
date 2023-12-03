@@ -1,0 +1,386 @@
+ :root{
+    --tx-white : #FFFFFF;
+ }
+ 
+ .c-h1 {
+    color: #f2f5f7;
+ }
+
+ 
+.h-min{
+  height:450px ; 
+}  
+.s-h-max{
+    height: 200px;
+}
+.w-min{
+   width: 350px;
+}
+.max-h{
+    height: 450px;
+}
+.max-pt{
+ padding-top: 30px;
+}
+.mena-txt{
+    color: var(--tx-white);
+}
+.my-align-center{
+    align-items: center;
+}
+
+.c-padding{
+    padding: 10px;
+}
+.m-t{
+    margin-top: 20px;
+}
+
+
+
+.my-position-rel{
+    position: relative;
+}
+
+
+
+ .main-height{
+    height: 100px;
+ }
+ 
+.my-text-white{
+    --tx-white : var(--#ffffff);
+}
+ 
+ 
+
+.navbar{
+  position:relative;
+  z-index: 9000;
+  margin-bottom: 0px;
+  color: rgb(236, 236, 243);
+   background-color: #f2f5f7;
+   height: 80px;
+   transform: translateY(0);
+   transition: transform .6s cubic-bezier(0.76, 0, 0.24, 1), background .6s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.navbar-img {
+    /* background-image: url('/img.jpg/logo-colour.png'); */
+    height: 62px;
+    width: 190px;
+    padding-top: 5px;
+}
+.navbar .button{
+   width: 35px;
+   height: 45px;
+}
+
+
+
+   /* first-sec */
+.first-sec{
+    background-image: url('/img.jpg/luffy-portada2.jpg');
+    height: 700px;
+    position: relative;
+    padding-top: 120px;
+}
+
+   /* small sction */
+.small-section{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.small-section::before {
+    content: '';
+    height: 2px;
+    background-color: crimson;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    margin-top: 90px;
+    box-sizing: border-box;
+}
+.count-img  {
+   /* background-image: url('/img.jpg/1card.png'); */
+   height: 50%;
+  width: 75%; 
+  mask-image: none;
+}
+
+.card-img{
+   height: 245px;
+   width: 304px;
+}
+.card{
+   border-color: black;
+   border: 2px solid;
+   
+}
+.card:hover{
+   border-color: aqua;
+   transition-duration: 0.4s;
+}
+
+/* .card.p{
+    
+    height: 2px;
+    
+    position: absolute;
+   
+    z-index: 1;
+    margin-top: 90px;
+    box-sizing: border-box;
+} */
+
+
+.bi{
+    font-size: 2em;
+    
+}
+.findsec{
+    background-image: url('/img.jpg/bg-cube.jpg');
+    width: 100%;
+
+}
+.c-sec{
+     display: flex;
+    position: relative;
+    margin-top: 20px;
+    height: 150px 
+}
+
+
+.c-sec::before{
+   content: '';
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.c-sec-p {
+   
+    padding-left: 50px;
+}
+
+.c-sec2{
+    position: absolute;
+    margin-top: 120px;
+    height: 150px; 
+    padding-top: 30px;
+    margin-left: 16px;
+    
+}
+
+.c-sec2::before{
+     content: '';
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.c-sec2 .bi{
+    font-size: 1em;
+    font-optical-sizing: 10px;
+}
+
+.change-img{
+  height: 100%;
+  width: 100%;
+}
+.only-sec{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.only-sec::before{
+    content: '';
+    height: 2px;
+    background-color: rgb(184, 13, 13);
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+.change-sec{
+    padding-left: 50px;
+}
+
+.meet-mean{
+    background-image: url('/img.jpg/bg-hands.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    height: 450px;
+    width: 100%;
+    justify-content:baseline;
+}
+
+.team-sec{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.team-sec::before{
+     content: '';
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+    margin-top: 40px;
+    box-sizing: border-box
+}
+.meet-sec{
+    padding-left: 32px;
+}
+
+.meet-find{
+    position: relative;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+.meet-find::before{
+      content: '';
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+    margin-top: 35px;
+    box-sizing: border-box;
+}
+
+.meet-find                                       .bi{
+    font-size: 1em;
+    font-optical-sizing: 10px;
+}
+
+.contact-us{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 2;
+}
+
+.contact-us::before{
+     content: '';
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    margin-top: 45px;
+    box-sizing: border-box; 
+    
+}
+
+.contact-info{
+    padding-left: 30px;
+}
+
+.form{
+    padding-left: 30px;
+}
+input[type=text]{
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid #ccc ;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+input[type=email]{
+    border: none;
+    width: 400px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+textarea{
+    border: none;
+    width: 400px;
+    height: 130px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #ccc ;
+}
+
+
+.btn-down{
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+/* .btn-down::before{
+    
+     content: '';
+    height: 2px;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    margin-top: 45px;
+    box-sizing: border-box;
+
+} */
+
+.btn[type=submit]{
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 3px solid;
+    width: 130px;
+    text-align: end;
+    font-weight: 400;
+    background-color: white;
+}
+
+.AdaptiveIntelligence{
+    background-image: url("/img.jpg/bg-cube2.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    text-align: center;
+}
+
+.Adaptive{
+   text-align: center;
+   margin-top: 120px;
+   font-size: 65px;
+}
+footer{
+    height: 220px;
+    background-color: darkred;
+}
+
+.foot-img{
+    height: 40px;
+    width: 160px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+
+
+
